@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>層で考える思考法</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        
+        .layers-demo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .building-layers {
+            position: relative;
+            height: 400px;
+        }
+        
+        .layer {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .layer:hover {
+            transform: translateX(-50%) scale(1.05);
+            z-index: 10;
+        }
+        
+        .layer-1 {
+            bottom: 20px;
+            width: 300px;
+            height: 60px;
+            background: linear-gradient(45deg, #8B4513, #A0522D);
+        }
+        
+        .layer-2 {
+            bottom: 100px;
+            width: 250px;
+            height: 80px;
+            background: linear-gradient(45deg, #4CAF50, #66BB6A);
+        }
+        
+        .layer-3 {
+            bottom: 200px;
+            width: 200px;
+            height: 80px;
+            background: linear-gradient(45deg, #2196F3, #42A5F5);
+        }
+        
+        .layer-4 {
+            bottom: 300px;
+            width: 150px;
+            height: 60px;
+            background: linear-gradient(45deg, #FF5722, #FF7043);
+        }
+        
+        .problem-analysis {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .analysis-layer {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid;
+            border-radius: 5px;
+            background: white;
+            transition: all 0.3s ease;
+        }
+        
+        .analysis-layer:hover {
+            transform: translateX(10px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .deep {
+            border-color: #8B4513;
+            background: linear-gradient(to right, #fff, #faf5f0);
+        }
+        
+        .middle {
+            border-color: #4CAF50;
+            background: linear-gradient(to right, #fff, #f0f8f0);
+        }
+        
+        .surface {
+            border-color: #2196F3;
+            background: linear-gradient(to right, #fff, #f0f6ff);
+        }
+        
+        .layer-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .layer-content {
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .examples-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f1f3f4;
+            border-radius: 10px;
+        }
+        
+        .example-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .example-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .example-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-title {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .card-layer {
+            margin: 10px 0;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        
+        .card-deep { background: #ffeaa7; }
+        .card-middle { background: #a8e6cf; }
+        .card-surface { background: #87ceeb; }
+        
+        .benefits {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        .benefits h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .benefit-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .interactive-note {
+            background: #e8f4fd;
+            border: 2px dashed #2196F3;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: #1976D2;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ 層で考える思考法</h1>
+        
+        <div class="interactive-note">
+            💡 建物やカードにカーソルを合わせて、層の概念を体感してみてください！
+        </div>
+        
+        <div class="layers-demo">
+            <div class="building-layers">
+                <div class="layer layer-1">🏗️ 基礎層（根本原理）</div>
+                <div class="layer layer-2">🔧 構造層（メイン仕組み）</div>
+                <div class="layer layer-3">🏠 機能層（具体的機能）</div>
+                <div class="layer layer-4">🎨 表面層（見た目・体験）</div>
+            </div>
+            
+            <div class="problem-analysis">
+                <h3 style="text-align: center; color: #2c3e50;">「勉強が続かない」問題の層分析</h3>
+                
+                <div class="analysis-layer deep">
+                    <div class="layer-title">🌱 深層（根本原因）</div>
+                    <div class="layer-content">
+                        • 学習する意味を見出せていない<br>
+                        • 自己効力感が低い<br>
+                        • 内発的動機が不足
+                    </div>
+                </div>
+                
+                <div class="analysis-layer middle">
+                    <div class="layer-title">⚙️ 中層（仕組みの問題）</div>
+                    <div class="layer-content">
+                        • 適切な学習計画がない<br>
+                        • フィードバックの仕組みがない<br>
+                        • 環境が整っていない
+                    </div>
+                </div>
+                
+                <div class="analysis-layer surface">
+                    <div class="layer-title">👁️ 表層（見える症状）</div>
+                    <div class="layer-content">
+                        • 集中力が続かない<br>
+                        • スマホを見てしまう<br>
+                        • やる気が起きない
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="examples-section">
+            <h2 style="text-align: center; color: #2c3e50;">🎯 他の分野での層思考の例</h2>
+            
+            <div class="example-cards">
+                <div class="example-card">
+                    <div class="card-title">💼 ビジネス問題</div>
+                    <div class="card-layer card-deep"><strong>深層：</strong> 市場価値・競合優位性</div>
+                    <div class="card-layer card-middle"><strong>中層：</strong> 業務プロセス・組織体制</div>
+                    <div class="card-layer card-surface"><strong>表層：</strong> 売上・利益の数字</div>
+                </div>
+                
+                <div class="example-card">
+                    <div class="card-title">🏥 健康問題</div>
+                    <div class="card-layer card-deep"><strong>深層：</strong> 生活習慣・ストレス要因</div>
+                    <div class="card-layer card-middle"><strong>中層：</strong> 食事・運動・睡眠パターン</div>
+                    <div class="card-layer card-surface"><strong>表層：</strong> 体調不良・症状</div>
+                </div>
+                
+                <div class="example-card">
+                    <div class="card-title">💻 システム設計</div>
+                    <div class="card-layer card-deep"><strong>深層：</strong> アーキテクチャ・データモデル</div>
+                    <div class="card-layer card-middle"><strong>中層：</strong> API・ビジネスロジック</div>
+                    <div class="card-layer card-surface"><strong>表層：</strong> UI・ユーザー体験</div>
+                </div>
+                
+                <div class="example-card">
+                    <div class="card-title">🤝 人間関係</div>
+                    <div class="card-layer card-deep"><strong>深層：</strong> 価値観・信念体系</div>
+                    <div class="card-layer card-middle"><strong>中層：</strong> コミュニケーションパターン</div>
+                    <div class="card-layer card-surface"><strong>表層：</strong> 日常の会話・行動</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="benefits">
+            <h2>🌟 層思考の効果</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h3>🎯 根本解決</h3>
+                    表面的な対症療法ではなく、深い原因にアプローチできる
+                </div>
+                <div class="benefit-item">
+                    <h3>📊 優先順位</h3>
+                    どの層から手をつけるべきかが明確になる
+                </div>
+                <div class="benefit-item">
+                    <h3>🔍 見落とし防止</h3>
+                    全体を俯瞰して、重要な要素を見逃さない
+                </div>
+                <div class="benefit-item">
+                    <h3>💬 説明力向上</h3>
+                    相手に合わせて適切なレベルで説明できる
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+            <h3>🚀 実践のコツ</h3>
+            <p style="font-size: 1.1em; color: #555;">
+                問題に直面したら、まず<strong>「これは何層に分けて考えられるか？」</strong>と自問してみましょう。<br>
+                深い層ほど影響力が大きく、表面の層は症状として現れることを意識してください。
+            </p>
+        </div>
+    </div>
+</body>
+</html>
