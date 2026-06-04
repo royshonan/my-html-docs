@@ -11,7 +11,7 @@ HTMLドキュメントをNotionに埋め込むためのリポジトリです。
 ## セットアップ
 1. リポジトリのクローン
    ```bash
-   git clone https://github.com/ryopeace0503-prog/my-html-docs.git
+   git clone https://github.com/royshonan/my-html-docs.git
    cd my-html-docs
    ```
 
