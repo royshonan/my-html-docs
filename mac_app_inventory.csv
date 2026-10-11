@@ -1,0 +1,181 @@
+app_name,bundle_id,version,developer,size_mb,last_modified,is_menu_bar_app,is_mas_app,category,app_path
+AOSUIPrefPaneLauncher,com.apple.AOSUIPrefPaneLauncher,1.0,Unknown,0.14,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/AOSUIPrefPaneLauncher.app
+Add Printer,com.apple.print.add,607,prad,4.53,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/AddPrinter.app
+AirPlayUIAgent,com.apple.AirPlayUIAgent,2.0,????,0.34,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/AirPlayUIAgent.app
+AirPort Base Station Agent,com.apple.AirPortBaseStationAgent,2.2.1,APDA,0.3,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/AirPort Base Station Agent.app
+AskToMessagesHost,com.apple.AskToMessagesHost,1.0,Unknown,0.99,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/AskToMessagesHost.app
+Automator Application Stub,com.apple.Automator.Automator-Application-Stub,1.3,????,3.06,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Automator Application Stub.app
+Automator Installer,com.apple.AutomatorInstaller,2.10,Automator Installer,1.88,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Automator Installer.app
+BluetoothUIServer,com.apple.BluetoothUIServer,9.0,????,3.03,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/BluetoothUIServer.app
+BluetoothUIService,com.apple.BluetoothUIService,1.0,Unknown,2.16,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/BluetoothUIService.app
+Calendar / Reminders,com.apple.CalendarFileHandler,8.0,????,1.32,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/CalendarFileHandler.app
+Captive Network Assistant,com.apple.CaptiveNetworkAssistant,5.0,????,0.39,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Captive Network Assistant.app
+ControlCenter,com.apple.controlcenter,1.0,ControlCenter,19.19,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ControlCenter.app
+CoreLocationAgent,com.apple.CoreLocationAgent,2964.0.8,????,0.38,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/CoreLocationAgent.app
+CoreServicesUIAgent,com.apple.coreservices.uiagent,369,Unknown,4.04,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/CoreServicesUIAgent.app
+Coverage Details,com.apple.NewDeviceOutreachApp,1.0,Coverage Details,0.45,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Coverage Details.app
+Diagnostics Reporter,com.apple.DiagnosticsReporter,1.0,Unknown,1.71,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Diagnostics Reporter.app
+DiscHelper,com.apple.DiscHelper,1.0,????,0.4,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/DiscHelper.app
+DiskImageMounter,com.apple.DiskImageMounter,1.0,ddsk,0.9,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/DiskImageMounter.app
+Dock,com.apple.dock,1.8,dock,22.02,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Dock.app
+EscrowSecurityAlert,com.apple.EscrowSecurityAlert,1.0,????,0.31,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/EscrowSecurityAlert.app
+Family,com.apple.Family,1.0,Unknown,0.14,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Family.app
+FileProvider-Feedback,com.apple.FileProvider-Feedback,1.0,Unknown,1.16,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/FileProvider-Feedback.app
+Game Center,com.apple.gamecenter,1.0,Game Center,1.06,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Game Center.app
+IOUIAgent,com.apple.IOUIAgent,1.0,Unknown,0.47,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/IOUIAgent.app
+Install Command Line Developer Tools,com.apple.dt.CommandLineTools.installondemand,2410,Unknown,3.18,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Install Command Line Developer Tools.app
+Install in Progress,com.apple.PackageUIKit.Install-in-Progress,3.0,????,1.37,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Install in Progress.app
+Installer Progress,com.apple.Installer-Progress,1.0,????,0.47,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Installer Progress.app
+JavaLauncher,com.apple.JavaLauncher,325,????,1.1,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/JavaLauncher.app
+Keyboard Setup Assistant,com.apple.KeyboardSetupAssistant,1.0,Unknown,2.86,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/KeyboardSetupAssistant.app
+KeyboardAccessAgent,com.apple.KeyboardAccessAgent,10,????,0.1,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/KeyboardAccessAgent.app
+Keychain Circle Notification,com.apple.security.Keychain-Circle-Notification,1.0,????,0.26,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Keychain Circle Notification.app
+Launchpad,com.apple.launchpad.launcher,1.0,dlet,0.65,2025-08-17 03:44:29,True,False,Apple,/System/Applications/Launchpad.app
+MTLReplayer,com.apple.MTLReplayer,304.7,Unknown,43.28,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/MTLReplayer.app
+ManagedClient,com.apple.ManagedClient,17.1,mcxd,15.95,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ManagedClient.app
+Memory Slot Utility,com.apple.MemorySlotUtility,1.5.3,????,0.29,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Memory Slot Utility.app
+Mission Control,com.apple.exposelauncher,1.2,dlet,0.26,2025-08-17 03:44:29,True,False,Apple,/System/Applications/Mission Control.app
+NetAuthAgent,com.apple.NetAuthAgent,6.2,????,1.25,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/NetAuthAgent.app
+NotificationCenter,com.apple.notificationcenterui,1.0,Unknown,10.06,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/NotificationCenter.app
+NowPlayingTouchUI,com.apple.NowPlayingTouchUI,1.0,Unknown,0.58,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/NowPlayingTouchUI.app
+OBEXAgent,com.apple.OBEXAgent,9.0,????,1.34,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/OBEXAgent.app
+ODSAgent,com.apple.ODSAgent,1.9,ODSAgent,1.21,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ODSAgent.app
+OSDUIHelper,com.apple.OSDUIHelper,1.0,????,0.67,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/OSDUIHelper.app
+PIPAgent,com.apple.PIPAgent,1.0,????,1.2,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/PIPAgent.app
+Pass Viewer,com.apple.Pass-Viewer,1.0,????,0.52,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Pass Viewer.app
+PeopleViewService,com.apple.PeopleViewService,1.0,PeopleViewService,3.74,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/PeopleViewService.app
+PowerChime,com.apple.PowerChime,1.0,????,0.58,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/PowerChime.app
+Problem Reporter,com.apple.ProblemReporter,10.13,????,1.45,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Problem Reporter.app
+ProfileHelper,com.apple.mcx.ProfileHelper,1.0,ProfileHelper,1.23,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ProfileHelper.app
+RapportUIAgent,com.apple.RapportUIAgent,6.8.0,Unknown,0.27,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/RapportUIAgent.app
+RegisterPluginIM,com.apple.pluginIM.pluginIMRegistrator,26.200,????,0.28,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/RegisterPluginIMApp.app
+ScreenSaverEngine,com.apple.ScreenSaver.Engine,5.0,????,1.34,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ScreenSaverEngine.app
+Script Menu,com.apple.ScriptMenuApp,1,Script Menu,0.4,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Script Menu.app
+ScriptMonitor,com.apple.ScriptMonitor,1.0.1,????,0.23,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ScriptMonitor.app
+ShortcutDroplet,com.apple.shortcuts.droplet,1.0,Unknown,0.1,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ShortcutDroplet.app
+Shortcuts Events,com.apple.shortcuts.events,1.0,Unknown,0.14,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Shortcuts Events.app
+Siri,com.apple.siri.launcher,1.0,dlet,2.32,2025-08-17 03:44:29,True,False,Apple,/System/Applications/Siri.app
+Siri,com.apple.Siri,3406.12.1,????,3.68,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Siri.app
+Software Update,com.apple.SoftwareUpdate,6,swup,1.26,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Software Update.app
+SpacesTouchBarAgent,com.apple.SpacesTouchBarAgent,1.0,SpacesTouchBarAgent,0.52,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/SpacesTouchBarAgent.app
+Spotlight,com.apple.Spotlight,1.0,Spotlight,4.92,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/Spotlight.app
+StageManagerOnboarding,com.apple.windowmanager.StageManagerOnboarding,1.0,StageManagerOnboarding,1.88,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/StageManagerOnboarding.app
+System Events,com.apple.systemevents,1.3.6,sevs,0.75,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/System Events.app
+SystemUIServer,com.apple.systemuiserver,1.7,syui,1.54,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/SystemUIServer.app
+TextInputMenuAgent,com.apple.TextInputMenuAgent,1.0,Unknown,0.46,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/TextInputMenuAgent.app
+TextInputSwitcher,com.apple.TextInputSwitcher,1.1,????,0.17,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/TextInputSwitcher.app
+ThermalTrap,com.apple.ThermalTrap,1.0,????,0.3,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/ThermalTrap.app
+Time Machine,com.apple.backup.launcher,1.3,dlet,1.1,2025-08-17 03:44:29,True,False,Apple,/System/Applications/Time Machine.app
+TipsSpotlightHandler,com.apple.tips,1.0,TipsSpotlightHandler,1.05,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/TipsSpotlightHandler.app
+UniversalAccessControl,com.apple.UniversalAccessControl,7.0,????,0.59,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/UniversalAccessControl.app
+UniversalControl,com.apple.universalcontrol,1.0,UniversalControl,6.95,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/UniversalControl.app
+UnmountAssistantAgent,com.apple.UnmountAssistantAgent,5.0,????,0.81,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/UnmountAssistantAgent.app
+VoiceOver,com.apple.VoiceOver,10,????,1.46,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/VoiceOver.app
+WallpaperAgent,com.apple.wallpaper.agent,1.0,Unknown,5.76,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WallpaperAgent.app
+WatchFaceAlert,com.apple.WatchFaceAlert,1.0,WatchFaceAlert,0.37,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WatchFaceAlert.app
+WiFiAgent,com.apple.wifi.WiFiAgent,17.0,????,0.99,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WiFiAgent.app
+WindowManager,com.apple.WindowManager,278.4.7,WindowManager,11.86,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WindowManager.app
+WindowManagerShowDesktopEducation,com.apple.windowmanager.ShowDesktopEducation,1.0,WindowManagerShowDesktopEducation,0.42,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WindowManagerShowDesktopEducation.app
+WorkoutAlert-Mac,com.apple.WorkoutAlert-Mac,1.0,WorkoutAlert-Mac,0.19,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/WorkoutAlert-Mac.app
+iCloud,com.apple.CloudKit.ShareBear,1.0,????,2.87,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/iCloud.app
+iCloud+,com.apple.icq,1.0,Unknown,0.26,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/iCloud+.app
+loginwindow,com.apple.loginwindow,9.0,lgnw,4.61,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/loginwindow.app
+screencaptureui,com.apple.screencaptureui,1.0,Unknown,2.87,2025-08-17 03:44:29,True,False,Apple,/System/Library/CoreServices/screencaptureui.app
+Alfred,com.runningwithcrayons.Alfred,5.7,????,27.53,2025-09-15 22:13:34,True,False,Other,/Applications/Alfred 5.app
+Karabiner-VirtualHIDDevice-Manager,org.pqrs.Karabiner-VirtualHIDDevice-Manager,6.0.0,Unknown,0.84,2025-09-19 06:12:07,True,False,Other,/Applications/.Karabiner-VirtualHIDDevice-Manager.app
+Raycast,com.raycast.macos,1.103.2,Raycast,127.92,2025-09-20 18:55:05,True,False,Other,/Applications/Raycast.app
+AVB Configuration,com.apple.AVB-Audio-Configuration,1320.3,????,8.46,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/AVB Configuration.app
+AddressBookUrlForwarder,com.apple.AddressBook.UrlForwarder,14.0,????,0.26,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/AddressBookUrlForwarder.app
+App Store,com.apple.AppStore,3.0,App Store,16.41,2025-08-17 03:44:29,False,True,Apple,/System/Applications/App Store.app
+Apple Diagnostics,com.apple.DiagnosticsModeAssistant,1.0,Apple Diagnostics,0.89,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Apple Diagnostics.app
+AppleScript Utility,com.apple.AppleScriptUtility,1.1.2,scut,1.59,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/AppleScript Utility.app
+Automator,com.apple.Automator,2.10,ATM ,4.55,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Automator.app
+Batteries,com.apple.Batteries,1.0,Batteries,0.39,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Batteries.app
+BluetoothSetupAssistant,com.apple.BluetoothSetupAssistant,9.0,Unknown,1.85,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/BluetoothSetupAssistant.app
+Books,com.apple.iBooksX,7.6,????,182.07,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Books.app
+Calculator,com.apple.calculator,11.0,Calculator,4.33,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Calculator.app
+Calendar,com.apple.iCal,15.0,wrbt,13.08,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Calendar.app
+Certificate Assistant,com.apple.CertificateAssistant,5.0,crta,9.12,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Certificate Assistant.app
+Chess,com.apple.Chess,3.18,mbch,13.78,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Chess.app
+Clock,com.apple.clock,1.1,????,8.02,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Clock.app
+Contacts,com.apple.AddressBook,14.0,adrb,14.29,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Contacts.app
+ControlStrip,com.apple.controlstrip,1.0,????,2.55,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/ControlStrip.app
+Database Events,com.apple.databaseevents,1.0.6,dbev,0.25,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Database Events.app
+Dictionary,com.apple.Dictionary,2.3.0,dics,13.94,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Dictionary.app
+Dwell Control,com.apple.DwellControl,1.0,????,0.32,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Dwell Control.app
+Enhanced Logging,com.apple.EnhancedLogging,1.0,Enhanced Logging,2.24,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Enhanced Logging.app
+Erase Assistant,com.apple.EraseAssistant,1.0,Unknown,2.28,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Erase Assistant.app
+FaceTime,com.apple.FaceTime,36,????,16.36,2025-08-17 03:44:29,False,False,Apple,/System/Applications/FaceTime.app
+FindMy,com.apple.findmy,4.0,FindMy,41.14,2025-08-17 03:44:29,False,False,Apple,/System/Applications/FindMy.app
+Finder,com.apple.finder,15.5,MACS,45.82,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Finder.app
+FolderActionsDispatcher,com.apple.FolderActionsDispatcher,1.0,fadi,0.84,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/FolderActionsDispatcher.app
+Font Book,com.apple.FontBook,11.0,Font Book,10.83,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Font Book.app
+Freeform,com.apple.freeform,3.5,Freeform,64.99,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Freeform.app
+GarageBand,com.apple.garageband10,10.4.12,band,1710.21,2025-07-15 04:44:34,False,True,Apple,/Applications/GarageBand.app
+Home,com.apple.Home,9.0,????,11.75,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Home.app
+Image Capture,com.apple.Image_Capture,8.0,????,3.01,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Image Capture.app
+Image Events,com.apple.imageevents,1.1.6,imev,0.45,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Image Events.app
+Image Playground,com.apple.GenerativePlaygroundApp,1.0,Image Playground,4.3,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Image Playground.app
+Installer,com.apple.installer,6.2.0,xins,5.86,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Installer.app
+Keynote,com.apple.iWork.Keynote,14.4,keyn,964.39,2025-07-15 04:45:36,False,True,Apple,/Applications/Keynote.app
+Language Chooser,com.apple.Language-Chooser,1.0,????,2.66,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Language Chooser.app
+Mail,com.apple.mail,16.0,emal,29.99,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Mail.app
+Maps,com.apple.Maps,3.0,????,89.69,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Maps.app
+MediaMLPluginApp,com.apple.MediaMLPluginApp,1.0,Unknown,3.33,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/MediaMLPluginApp.app
+Messages,com.apple.MobileSMS,14.0,????,7.67,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Messages.app
+Music,com.apple.Music,1.5.6,Music,102.01,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Music.app
+MusicRecognitionMac,com.apple.musicrecognition.mac,1.0,MusicRecognitionMac,0.52,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/MusicRecognitionMac.app
+News,com.apple.news,10.5,????,9.2,2025-08-17 03:44:29,False,False,Apple,/System/Applications/News.app
+Notes,com.apple.Notes,4.12.7,????,29.14,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Notes.app
+Numbers,com.apple.iWork.Numbers,14.4,NMBR,826.83,2025-07-15 04:45:52,False,True,Apple,/Applications/Numbers.app
+Pages,com.apple.iWork.Pages,14.4,page,886.5,2025-07-15 04:46:09,False,True,Apple,/Applications/Pages.app
+Paired Devices,com.apple.PairedDevices,6.8.0,Paired Devices,0.58,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Paired Devices.app
+Passwords,com.apple.Passwords,1.6,????,1.45,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Passwords.app
+PeopleMessageService,com.apple.PeopleMessageService,1.0,Family Request,2.89,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/PeopleMessageService.app
+Photo Booth,com.apple.PhotoBooth,13.1,PhBo,4.25,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Photo Booth.app
+Photos,com.apple.Photos,10.0,Phts,39.52,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Photos.app
+Podcasts,com.apple.podcasts,1.1.0,????,116.38,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Podcasts.app
+Preview,com.apple.Preview,11.0,prvw,10.56,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Preview.app
+Pro Display Calibrator,com.apple.displaycalibrator,211.0.1,Unknown,4.16,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Pro Display Calibrator.app
+QuickTime Player,com.apple.QuickTimePlayerX,10.5,mgvr,6.32,2025-08-17 03:44:29,False,False,Apple,/System/Applications/QuickTime Player.app
+Reminders,com.apple.reminders,7.0,Reminders,20.44,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Reminders.app
+Rosetta 2 Updater,com.apple.OAHSoftwareUpdateApp,1.0,Rosetta 2 Updater,2.26,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Rosetta 2 Updater.app
+Safari,com.apple.Safari,18.6,sfri,13.76,2025-07-19 12:15:01,False,False,Apple,/Applications/Safari.app
+Screen Time,com.apple.ScreenTimeWidgetApplication,3.0,Screen Time,1.67,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Screen Time.app
+Setup Assistant,com.apple.SetupAssistant,10.10,????,35.38,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/Setup Assistant.app
+Shortcuts,com.apple.shortcuts,7.0,????,5.67,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Shortcuts.app
+ShortcutsActions,com.apple.ShortcutsActions,Unknown,Unknown,0.13,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/ShortcutsActions.app
+Stickies,com.apple.Stickies,10.3,Unknown,1.77,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Stickies.app
+Stocks,com.apple.stocks,7.4,Stocks,5.65,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Stocks.app
+System Settings,com.apple.systempreferences,15.0,sprf,8.66,2025-08-17 03:44:29,False,False,Apple,/System/Applications/System Settings.app
+TV,com.apple.TV,1.5.6,TV,72.67,2025-08-17 03:44:29,False,False,Apple,/System/Applications/TV.app
+TextEdit,com.apple.TextEdit,1.20,ttxt,2.31,2025-08-17 03:44:29,False,False,Apple,/System/Applications/TextEdit.app
+Tips,com.apple.helpviewer,15.6,Tips,5.52,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Tips.app
+UIKitSystem,com.apple.UIKitSystemApp,1.0,Unknown,0.15,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/UIKitSystem.app
+UserNotificationCenter,com.apple.UserNotificationCenter,82,uncx,0.34,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/UserNotificationCenter.app
+VoiceMemos,com.apple.VoiceMemos,3.1,????,8.65,2025-08-17 03:44:29,False,False,Apple,/System/Applications/VoiceMemos.app
+Weather,com.apple.weather,5.1,Weather,39.14,2025-08-17 03:44:29,False,False,Apple,/System/Applications/Weather.app
+WidgetKit Simulator,com.apple.widgetkit.simulator,1.0,Unknown,2.39,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/WidgetKit Simulator.app
+Xcode Previews,com.apple.PreviewShell,16.0,Unknown,2.2,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/PreviewShell.app
+iMovie,com.apple.iMovieApp,10.4.3,????,4434.91,2025-07-15 04:45:19,False,True,Apple,/Applications/iMovie.app
+iPhone Mirroring,com.apple.ScreenContinuity,1.3,iPhone Mirroring,13.01,2025-08-17 03:44:29,False,False,Apple,/System/Applications/iPhone Mirroring.app
+rcd,com.apple.rcd,362,????,0.16,2025-08-17 03:44:29,False,False,Apple,/System/Library/CoreServices/rcd.app
+Arc,company.thebrowser.Browser,1.113.0,Unknown,1160.29,2025-09-25 13:50:29,False,False,Browser,/Applications/Arc.app
+Discord,com.hnc.Discord,0.0.362,Discord,748.94,2025-09-22 09:38:06,False,False,Communication,/Applications/Discord.app
+1Password,com.1password.1password,8.11.10,1Password,728.41,2025-09-23 15:10:48,False,False,Other,/Applications/1Password.app
+Amazon Kindle,com.amazon.Lassen,7.41,????,245.24,2025-09-23 21:17:47,False,True,Other,/Applications/Amazon Kindle.app
+ChatGPT,com.openai.chat,1.2025.252,ChatGPT,197.39,2025-09-23 15:09:46,False,False,Other,/Applications/ChatGPT.app
+Claude,com.anthropic.claudefordesktop,0.12.129,Claude,802.19,2025-08-30 01:17:24,False,False,Other,/Applications/Claude.app
+Cursor,com.todesktop.230313mzl4w4u92,1.6.45,Cursor,583.07,1980-01-01 00:00:00,False,False,Other,/Applications/Cursor.app
+Karabiner-Elements,org.pqrs.Karabiner-Elements.Settings,15.5.0,Unknown,24.07,2025-09-19 06:12:07,False,False,Other,/Applications/Karabiner-Elements.app
+Karabiner-EventViewer,org.pqrs.Karabiner-EventViewer,15.5.0,Unknown,10.39,2025-09-19 06:12:07,False,False,Other,/Applications/Karabiner-EventViewer.app
+Keyboard Maestro,com.stairways.keyboardmaestro.editor,11.0.4,MKKM,87.22,2025-05-20 13:28:00,False,False,Other,/Applications/Keyboard Maestro.app
+LINE,jp.naver.line.mac,9.12.1,????,858.26,2025-09-19 17:34:35,False,True,Other,/Applications/LINE.app
+Miro,com.electron.realtimeboard,0.11.114,Miro,442.33,2025-09-05 22:15:27,False,False,Other,/Applications/Miro.app
+Obsidian,md.obsidian,1.9.12,Obsidian,826.25,2025-08-26 23:16:02,False,False,Other,/Applications/Obsidian.app
+Setapp,com.setapp.DesktopClient,3.47.1,Setapp,522.44,2025-09-12 08:52:23,False,False,Other,/Applications/Setapp.app
+hhkb-keymap-tool,jp.co.pfu.hhkb-keymap-tool,1.3.0,Unknown,25.03,2022-07-25 11:40:40,False,False,Other,/Applications/hhkb-keymap-tool.app
+Edge,com.microsoft.edgemac,140.0.3485.81,EDGE,3224.72,2025-09-05 20:15:04,False,False,Productivity,/Applications/Microsoft Edge.app
+Notion,notion.id,4.20.0,Notion,426.75,2025-09-12 20:09:46,False,False,Productivity,/Applications/Notion.app
+Notion Calendar,com.cron.electron,1.131.0,Notion Calendar,435.33,2025-07-29 04:29:52,False,False,Productivity,/Applications/Notion Calendar.app
+Notion Mail,notion.mail.id,0.0.37,Notion Mail,716.53,2025-07-12 06:47:13,False,False,Productivity,/Applications/Notion Mail.app
