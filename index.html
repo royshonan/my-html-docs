@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>私とNotionの相性｜ストレングスファインダーで読み解く</title>
+<style>
+  :root {
+    --page: #F9F8F7;
+    --canvas: #FFFFFF;
+    --soft: #F9F8F7;
+    --border: #E6E5E3;
+    --text: #2C2C2B;
+    --text-2: #6B6863;
+    --blue: #2783DE;
+    --blue-text: #1B64AE;
+    --blue-soft: #E5F2FC;
+    --orange-text: #9A5418;
+    --orange-soft: #FBEBDE;
+    --d-strategic: #72BC8F;
+    --d-relation: #5E9FE8;
+    --d-influence: #DE9255;
+    --d-exec: #BF8EDA;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #191919;
+      --canvas: #202020;
+      --soft: #262625;
+      --border: rgba(255, 255, 255, 0.20);
+      --text: #FFFFFF;
+      --text-2: rgba(255, 255, 255, 0.65);
+      --blue: #5E9FE8;
+      --blue-text: #8DBCF0;
+      --blue-soft: rgba(94, 159, 232, 0.12);
+      --orange-text: #E9A877;
+      --orange-soft: rgba(222, 146, 85, 0.12);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 24px;
+    background: var(--page);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    word-break: auto-phrase;
+    line-break: strict;
+  }
+  .card {
+    max-width: 880px;
+    margin: 48px auto;
+    padding: 48px;
+    background: var(--canvas);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .eyebrow {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blue-text);
+    letter-spacing: 0.02em;
+  }
+  h1 {
+    margin: 8px 0 12px;
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .lead {
+    margin: 0;
+    max-width: 640px;
+    font-size: 17px;
+    color: var(--text-2);
+  }
+  .label {
+    margin: 32px 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-2);
+  }
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .tile {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 16px 16px;
+    background: var(--soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .tile::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--c);
+  }
+  .tile .rank {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .tile .name {
+    display: block;
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .tile .domain {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+  section {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+  h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+  .section-lead {
+    margin: 0 0 24px;
+    max-width: 680px;
+    color: var(--text-2);
+  }
+  .section-lead strong { color: var(--text); font-weight: 700; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--blue-text);
+    background: var(--blue-soft);
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .chip small { font-size: 14px; font-weight: 500; }
+  .map {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .map li {
+    display: grid;
+    grid-template-columns: 200px 24px 1fr;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .arrow { display: flex; color: var(--blue); }
+  .arrow svg { width: 24px; height: 24px; }
+  .t { margin: 0; font-size: 17px; font-weight: 700; line-height: 1.45; }
+  .d { margin: 4px 0 0; font-size: 15px; color: var(--text-2); }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cards li {
+    padding: 24px;
+    background: var(--soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .cards .t { margin-top: 12px; font-size: 18px; }
+  .caution {
+    padding: 24px;
+    background: var(--orange-soft);
+    border-radius: 8px;
+  }
+  .caution ul {
+    display: grid;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .caution li {
+    display: grid;
+    grid-template-columns: 168px 1fr;
+    gap: 16px;
+    font-size: 15px;
+  }
+  .caution .k { font-weight: 700; color: var(--orange-text); }
+  .caution p { margin: 0; }
+  .caution .sub { display: block; color: var(--text-2); }
+  footer {
+    margin-top: 48px;
+    padding: 40px 32px;
+    text-align: center;
+    background: var(--soft);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .quote {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .quote span { display: inline-block; }
+  .wish { margin: 12px 0 0; color: var(--text-2); }
+  .ask {
+    display: inline-block;
+    margin: 24px 0 0;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--blue-text);
+    background: var(--blue-soft);
+    border-radius: 8px;
+  }
+  .source {
+    margin: 24px 0 0;
+    font-size: 14px;
+    text-align: center;
+    color: var(--text-2);
+  }
+  @media (max-width: 860px) {
+    .tiles { grid-template-columns: 1fr; gap: 8px; }
+    .tile {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px 12px;
+      padding: 12px 16px 12px 20px;
+    }
+    .tile::before { top: 0; bottom: 0; right: auto; width: 4px; height: auto; }
+    .tile .name, .tile .domain { margin-top: 0; }
+  }
+  @media (max-width: 640px) {
+    body { padding: 0; }
+    .card {
+      margin: 0;
+      padding: 32px 24px;
+      border-width: 0;
+      border-radius: 0;
+    }
+    h1 { font-size: 30px; }
+    .lead { font-size: 16px; }
+    .map li { grid-template-columns: 1fr; gap: 8px; padding: 16px; }
+    .arrow { display: none; }
+    .cards { grid-template-columns: 1fr; gap: 12px; }
+    .caution { padding: 16px; }
+    .caution li { grid-template-columns: 1fr; gap: 4px; }
+    footer { padding: 32px 16px; }
+    .quote { font-size: clamp(18px, 5vw, 26px); }
+  }
+</style>
+</head>
+<body>
+<main class="card">
+  <header>
+    <p class="eyebrow">ストレングスファインダーで読み解く</p>
+    <h1>私とNotionの相性</h1>
+    <p class="lead">上位資質から、Notionが「合う」理由と、次に挑戦したいことを整理しました。</p>
+
+    <p class="label" id="top5">上位5資質</p>
+    <ol class="tiles" aria-labelledby="top5">
+      <li class="tile" style="--c: var(--d-relation)"><span class="rank">1位</span><span class="name">個別化</span><span class="domain">人間関係構築力</span></li>
+      <li class="tile" style="--c: var(--d-strategic)"><span class="rank">2位</span><span class="name">学習欲</span><span class="domain">戦略的思考力</span></li>
+      <li class="tile" style="--c: var(--d-strategic)"><span class="rank">3位</span><span class="name">着想</span><span class="domain">戦略的思考力</span></li>
+      <li class="tile" style="--c: var(--d-influence)"><span class="rank">4位</span><span class="name">指令性</span><span class="domain">影響力</span></li>
+      <li class="tile" style="--c: var(--d-exec)"><span class="rank">5位</span><span class="name">アレンジ</span><span class="domain">実行力</span></li>
+    </ol>
+  </header>
+
+  <section aria-labelledby="why">
+    <h2 id="why">なぜ、Notionが合うのか</h2>
+    <p class="section-lead">Notionは、ブロック・ページ・データベースを組み合わせて<strong>自分で道具を組み立てる</strong>ツールです。この設計思想が、上位資質とよく噛み合っています。</p>
+    <ul class="map">
+      <li>
+        <div class="chips"><span class="chip">個別化<small>1位</small></span></div>
+        <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <div><p class="t">白紙から自分専用に組める</p><p class="d">既製の型に自分を合わせるのではなく、自分に合わせて道具を作れる。</p></div>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">学習欲<small>2位</small></span><span class="chip">収集心<small>8位</small></span></div>
+        <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <div><p class="t">データベースに知識を蓄積できる</p><p class="d">学んだことや集めた情報が、溜まるほど資産になる。</p></div>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">着想<small>3位</small></span><span class="chip">戦略性<small>6位</small></span></div>
+        <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <div><p class="t">リレーションで点と点をつなげられる</p><p class="d">概念同士を結び、知識をネットワークとして設計できる。</p></div>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">アレンジ<small>5位</small></span></div>
+        <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <div><p class="t">ビューや構造を何度でも組み替えられる</p><p class="d">同じデータを並べ替えながら、最適な形を試行錯誤できる。</p></div>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="next">
+    <h2 id="next">次の一歩：チームでNotionを運用したい</h2>
+    <p class="section-lead">これまでは個人運用だけでした。でも、Notionの真価は<strong>チームで使うコネクテッド・ワークスペース</strong>としての側面にもあります。そこでも、自分の資質が活きそうだと気づきました。</p>
+    <ul class="cards">
+      <li>
+        <div class="chips"><span class="chip">個別化<small>1位</small></span></div>
+        <p class="t">役割ごとの「見え方」を設計する</p>
+        <p class="d">元データは1つのまま、メンバーごとに最適なビューを用意する。</p>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">指令性<small>4位</small></span></div>
+        <p class="t">ルールを決めきる</p>
+        <p class="d">命名や置き場所など、チーム運用で不足しがちな「決める役」を担える。</p>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">責任感<small>7位</small></span><span class="chip">慎重さ<small>10位</small></span></div>
+        <p class="t">情報の鮮度と安全を守る</p>
+        <p class="d">ページオーナーや権限の管理を引き受けられる。</p>
+      </li>
+      <li>
+        <div class="chips"><span class="chip">親密性<small>9位</small></span></div>
+        <p class="t">少人数で深く関わる</p>
+        <p class="d">信頼関係の中で、メンバーの本音の困りごとを拾える。</p>
+      </li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="care">
+    <h2 id="care">気をつけたいこと</h2>
+    <p class="section-lead">チーム運用では、個人運用では表に出なかった資質も試されます。</p>
+    <div class="caution">
+      <ul>
+        <li>
+          <span class="k">下位資質</span>
+          <p>全員を巻き込んで広める役は消耗しやすい。2〜5人の小さなチームから始め、広める役は得意な人と組む。<span class="sub">包含（34位）・社交性（33位）・調和性（32位）・コミュニケーション（30位）</span></p>
+        </li>
+        <li>
+          <span class="k">個別化の行き過ぎ</span>
+          <p>器（構造）は共通にして、見え方（ビュー）だけを個別化する。</p>
+        </li>
+        <li>
+          <span class="k">指令性の出しすぎ</span>
+          <p>決めきる力も、押しつけに見えると定着しない。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p class="quote"><span>「自分に合う道具」から、</span><span>「人に合わせて組める道具」へ。</span></p>
+    <p class="wish">Notionの理解を深めて、人生を前向きに進めていきたい。</p>
+    <p class="ask">みなさんの上位資質は、Notionのどこで効いていますか？</p>
+  </footer>
+  <p class="source">CliftonStrengths（ストレングスファインダー）34資質の結果をもとに作成</p>
+</main>
+</body>
+</html>
